@@ -1,0 +1,40 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin:0%;
+}
+h1{
+    font-size:70px;
+}
+h2{
+    font-size: 60px;
+}
+.first-header{
+    color: #ff4500;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width:50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width:100%;
+}
+.first-section{
+    background-image:url(top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.ancor{
+    background-color: tomato;
+    text-decoration:none;
+    padding:15px 20px;
+    font-weight: 700;
+    color:rgb(207, 67, 16);
+    font-size: 25px;
+    border-radius:10px
+}
