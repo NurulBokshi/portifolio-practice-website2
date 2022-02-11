@@ -13,7 +13,7 @@ h2{
 .first-header{
     color: #ff4500;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -29,6 +29,7 @@ section{
     background-repeat: no-repeat;
 
 }
+
 .ancor{
     background-color: tomato;
     text-decoration:none;
@@ -37,4 +38,33 @@ section{
     color:rgb(207, 67, 16);
     font-size: 25px;
     border-radius:10px
+}
+.exper-item{
+    box-shadow: 15px 15px 25px crimson;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.darkorange {
+    color:darkorange;
+}
+.ex-area{
+   background-image:url(exp-bg.png);
+   background-repeat: no-repeat;
+   position: left;
+}
+#full-id{
+    border-left:5px solid;
+    border-image:linear-gradient(pink ,tomato);
+    border-image-slice:1;
+}
+#front-id{
+    border-left:5px solid; 
+    border-image:linear-gradient(crimson ,tomato);
+    border-image-slice:1;
+}
+.dream-big{
+    background-image:url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position : right;
 }
